@@ -91,4 +91,4 @@ Beks added to the number of epochs to the training regimen from 5 to 10.
 The overall results of Beks machine learning project for Alphabet Soup foundation is that a high enough accuracy rate was achived to provide a predictive model that will determine if a business who applied to the Alphabet Soup foundation investment project will be successful. This will help Alphabet Soup determine who to invest into and because the model predicts an 89% accuracy rate the successfulness of these investments should improve over time.
 
 ## Recommendation
-
+In this project, Beks uses a supervised classification machine learning model. This type of model has algorithm(s) that they learn from labeled data. In comparison a regression supervised model attempts to find correlation between continuous variables. Typically continuous variables are integers, such as price, income, age, etc. Because loan amount is a variable in this project, a regression model can be used to predict successfulness.
