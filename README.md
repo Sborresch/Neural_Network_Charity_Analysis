@@ -77,8 +77,18 @@ This machine learning model shows a 87% accuracy rate, which is above our chosen
 
 Although Beks earned an 87% accuracy rate on her first attempt at the nerual network/machine learning project, she decided to try to optimize it as much as possible. On her first attempt to improve the accuracy rate, she obtained an 89% accuracy rate. As this accuracy rate is higher than the initial attempt this optimized model will be used.
 
+#### What Changed?
+![Screenshot](https://github.com/Sborresch/Neural_Network_Charity_Analysis/blob/main/Model_Optimization.png)
+
+Beks added a third hidden layer = nn.add(tf.keras.layers.Dense(activation="relu"))
+
+![Screenshot](https://github.com/Sborresch/Neural_Network_Charity_Analysis/blob/main/Epoch_Optimization.png)
+
+Beks added to the number of epochs to the training regimen from 5 to 10.
+
 # Summary
 ## Results
+The overall results of Beks machine learning project for Alphabet Soup foundation is that a high enough accuracy rate was achived to provide a predictive model that will determine if a business who applied to the Alphabet Soup foundation investment project will be successful. This will help Alphabet Soup determine who to invest into and because the model predicts an 89% accuracy rate the successfulness of these investments should improve over time.
 
 ## Recommendation
 
