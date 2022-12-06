@@ -6,6 +6,12 @@ Beks, a data analyst, has been tasked with a final project to prove her data abi
 ## Data Source
 The data source for this project is a CSV file with over 34,000 businesses who applied for funding with Alphabet Soup over the years. [Here](https://github.com/Sborresch/Neural_Network_Charity_Analysis/blob/main/charity_data.csv) is where the data source file can be accessed.
 
+Other data sources for project:
+  - [Model 1 Code](https://github.com/Sborresch/Neural_Network_Charity_Analysis/blob/main/AlphabetSoupCharity.ipynb)
+  - [Model 1 h5](https://github.com/Sborresch/Neural_Network_Charity_Analysis/blob/main/AlphabetSoupCharity.h5)
+  - [Model 2 Code](https://github.com/Sborresch/Neural_Network_Charity_Analysis/blob/main/AlphabetSoupCharity_Optimization.ipynb)
+  - [Model 2 h5](https://github.com/Sborresch/Neural_Network_Charity_Analysis/blob/main/AlphabetSoupCharity_Optimization.h5)
+
 Here is a description of all the column names and meanings in the data source:
   - EIN and NAME—Identification columns
   - APPLICATION_TYPE—Alphabet Soup application type
@@ -60,8 +66,16 @@ Below is a count for each layer;
   - non-trainable params = 0
 
 ### Model Performance
+![Screenshot](https://github.com/Sborresch/Neural_Network_Charity_Analysis/blob/main/Accuracy_Test_1.png)
+
+It is important to note the accuracy rate of each machine learning model as this is what will provide justification for using this model. According to Kirsten Barkved from the [obviously.ai company](https://www.obviously.ai/post/machine-learning-model-performance#:~:text=Good%20accuracy%20in%20machine%20learning,not%20only%20ideal%2C%20it%27s%20realistic.), an accuracy rate above 70% is great model performance. Therefore, we should look at accuracy scores within the 70%-100% range.
+
+This machine learning model shows a 87% accuracy rate, which is above our chosen accuracy range. For this reason, Beks has created a helpful machine modle that Alphabet Soup can in fact use to assess future investment applicants.
 
 ### Optimization
+![Screenshot](https://github.com/Sborresch/Neural_Network_Charity_Analysis/blob/main/Accuracy_Test_2.png)
+
+Although Beks earned an 87% accuracy rate on her first attempt at the nerual network/machine learning project, she decided to try to optimize it as much as possible. On her first attempt to improve the accuracy rate, she obtained an 89% accuracy rate. As this accuracy rate is higher than the initial attempt this optimized model will be used.
 
 # Summary
 ## Results
